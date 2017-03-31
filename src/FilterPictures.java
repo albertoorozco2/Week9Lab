@@ -24,13 +24,13 @@ public class FilterPictures extends PApplet {
 //		GreenTintedPicture gtp = new GreenTintedPicture(this);
 //		PImage greenTintedPicture = gtp.filter(myPicture);
 		// Convert the image to greyscale
-		GreyscaledPicture gsp = new GreyscaledPicture(this);
-		PImage greyscaledPicture = gsp.filter(myPicture);
+//		GreyscaledPicture gsp = new GreyscaledPicture(this);
+//		PImage greyscaledPicture = gsp.filter(myPicture);
 //		// Threshold the image at a value of say 50
 //		// we will pass in the greyscaled picture for now
-//		ThresholdedPicture tp = new ThresholdedPicture(this);
-//		PImage thresholdedPicture = tp.filter(greyscaledPicture);
-//		
+		ThresholdedPicture tp = new ThresholdedPicture(this);
+		PImage thresholdedPicture = tp.filter(myPicture);
+		
 //		redTintedPicture.resize(1000,500);
 //		image(redTintedPicture, 0, 0);
 		
