@@ -28,9 +28,10 @@ public class FilterPictures extends PApplet {
 //		PImage greyscaledPicture = gsp.filter(myPicture);
 //		// Threshold the image at a value of say 50
 //		// we will pass in the greyscaled picture for now
-		ThresholdedPicture tp = new ThresholdedPicture(this);
-		PImage thresholdedPicture = tp.filter(myPicture);
-		
+//		ThresholdedPicture tp = new ThresholdedPicture(this);
+//		PImage thresholdedPicture = tp.filter(myPicture);
+		InvertedColors ic = new InvertedColors(this);
+		PImage InvertedColors= ic.filter(myPicture);
 //		redTintedPicture.resize(1000,500);
 //		image(redTintedPicture, 0, 0);
 		
